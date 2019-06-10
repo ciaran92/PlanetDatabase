@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Planet</th>
+        <th scope="col">Distance From The Sun (Km)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let planet of planets">
+        <td>{{ planet.planetName }}</td>
+        <td>{{ planet.distFromSun }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
